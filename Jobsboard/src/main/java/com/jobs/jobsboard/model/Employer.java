@@ -5,4 +5,35 @@ public class Employer {
 
     private String company_name;
 
+
+
+
+
+    public Employer(){
+
+   }
+
+   public Employer(Long id, String company_name) {
+        this.id = id;
+        this.company_name = company_name;
+    }
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getCompany_name() {
+        return company_name;
+    }
+
+    public void setCompany_name(String company_name) {
+        this.company_name = company_name;
+    }
+
+    
 }

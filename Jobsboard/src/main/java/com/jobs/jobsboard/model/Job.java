@@ -14,7 +14,7 @@ public class Job {
     private int date_posted;
 
   public Job(){
-      
+
   }
 
     public Job(Long id, String job_title, String experience_level, String job_description, String location, int date_posted) {
