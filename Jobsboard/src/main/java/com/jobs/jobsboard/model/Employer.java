@@ -35,5 +35,11 @@ public class Employer {
         this.company_name = company_name;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Employer{" +
+                "id=" + id +
+                ", company_name='" + company_name + '\'' +
+                '}';
+    }
 }
